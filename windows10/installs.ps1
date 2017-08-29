@@ -1,43 +1,36 @@
-# my services / devices
+#### my services / devices
 cinst -y lastpass
 cinst -y googlechrome
 cinst -y dropbox # this prompts for login (but chocolatey ignores it)
 cinst -y itunes
-cinst -y itunes
+cinst -y spotify 
 
-#utils
+#### sys / file utils
 cinst -y vlc
-cinst -y hostsman
 cinst -y sysinternals
 cinst -y rdcman
 cinst -y greenshot
 cinst -y 7zip.install
-cinst -y winscp
 cinst -y treesizefree
 cinst -y winmerge
 cinst -y fiddler
 cinst -y imageresizer -version 3.0.4442.6002
-#BLOAT category: virtualbox speccy winscp ccleaner recuva nmap
-#FAIL/MANUAL: mouserecorder.com
+#USE  BASH INSTEAD:  cinst -y winscp baretail #(WINDOWS SUBSYSTEM FOR LINUX)
+#optional: virtualbox speccy winscp ccleaner recuva nmap
+#manual install: mouserecorder.com
 
-#creative or developer 
-cinst -y spotify 
+#### creative or developer 
+cinst -y git
 cinst -y paint.net
 cinst -y firefox
-cinst -y git
 cinst -y nodejs.install
-cinst -y phantomjs
 cinst -y visualstudiocode
+cinst -y webstorm
 cinst -y sublimetext3
 cinst -y sourcetree
-cinst -y atom
-cinst -y baretail 
-cinst -y meld
-git config --global merge.tool meld
-git config --global mergetool.meld.path c:/Progra~2/meld/bin/
-
-#cinst -y adobe-creative-cloud #prompts. log in to start downloads. (safe to ignore)
-#MANUAL/fail: linqpad4 githubforwindows sharepointdesigher2013x32 sharepointmanager2013
+#MANUAL/fail: 
+#linqpad4?, githubforwindows?, SP designer? sharepointmanager2013?, fl studio?
+#Licensed: Office, Adobe CS, NCH Debut, biztree, balsamiq, pianoteq?
 
 #Powershell Config
 find-module sharepointpnppowershellonline | install-module
