@@ -16,7 +16,7 @@ cinst -y winmerge
 cinst -y fiddler
 cinst -y imageresizer -version 3.0.4442.6002
 #USE  BASH INSTEAD:  cinst -y winscp baretail #(WINDOWS SUBSYSTEM FOR LINUX)
-#optional: virtualbox speccy winscp ccleaner recuva nmap
+#optional: virtualbox speccy winscp nmap
 #manual install: mouserecorder.com
 
 #### creative or developer 
