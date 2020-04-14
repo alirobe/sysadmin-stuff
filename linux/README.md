@@ -3,7 +3,7 @@
 ## install utils 
 (yum = apt on debian/ubuntu, etc)
 
-    sudo yum install -y cockpit cockpit-docker
+    sudo yum install -y cockpit cockpit-docker cockpit-machines
     sudo yum install -y htop 
     sudo yum install -y tree #-L 2
 
@@ -24,6 +24,7 @@ verify with `sudo swapon --show`
 https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
 
     sudo ufw allow ssh <MYIP>
+    sudo ufw allow 9090 <MYIP>
     sudo ufw allow http https
     ufw enable
 
